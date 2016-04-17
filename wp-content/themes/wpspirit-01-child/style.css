@@ -1,0 +1,182 @@
+/*
+Theme Name:     WPspirit-01-child
+Description:
+Author:         Becky Bair
+Template:       wpspirit-01
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+/* Color Palette
+#63515d
+#89919c
+backgroud: #d5e2d9;
+#d6c1d4
+#a7c4bf
+*/
+
+.website-header,
+.top-icons,
+.website-content {
+  background-color: #d5e2d9;
+}
+
+body {
+  background-color: #d5e2d9;
+}
+
+/* Homepage Styles */
+.home-page {
+    background: url("img/mobile-791164_1920.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+.homepage-hero {
+	text-align:center;
+}
+
+.homepage-hero h1 {
+	color:white;
+	font-weight:bold;
+}
+
+.homepage-hero h3 {
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+}
+
+.site-footer .site-info {
+	border-top: 1px dotted #a7c4bf;
+	padding-top:20px;
+	margin-top:40px;
+}
+
+.drop-down > div > ul {
+	border-bottom: 1px dotted #ddd;
+}
+
+.site-footer {
+    clear: both;
+    color: #909090;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 40px auto;
+}
+
+.site-description {
+	width:33%;
+	float:left;
+}
+
+.social-media-navigation {
+	float:right;
+	width:20%;
+}
+
+div.footer-center {
+	margin: 40px auto;
+}
+
+.button-homepage {
+    background: none repeat scroll 0 0 #63515d;
+    color: white;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+a.button, a.button:link {
+	color:white;
+}
+
+/* Blog Posts on Homepage */
+.recent-posts {
+	margin: 50px auto auto 50px;
+  height: auto;
+  width: 90%;
+}
+
+.blog-post {
+	width: 45%;
+   display: inline-block;
+   float: left;
+   padding: 10px 20px 0 0;
+   margin-bottom: 40px;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #89919c;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #d6c1d4;
+}
+
+.blog-post .read-more-link {
+	font-size: 18px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #63515d;
+	text-transform: uppercase;
+}
+
+/* Twitter on Homepage */
+div#secondary.widget-area {
+	width: 45%;
+   float: right;
+   display: inline-block;
+   padding: 0 0 0 20px;
+}
+
+.widget-area h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #89919c;
+	text-transform: uppercase;
+}
+
+.widget-area h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #d6c1d4;
+}
+
+ul.tweets {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: inline;
+}
+
+.widget-area .follow-us-link {
+	font-size: 18px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #63515d;
+	text-transform: uppercase;
+}
+
+.js-copyright {
+  width: 100%;
+}
+
+.circular {
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+}
